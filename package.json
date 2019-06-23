@@ -1,0 +1,28 @@
+{
+  "name": "kilt",
+  "version": "1.0.0",
+  "description": "kilt api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-2.amazonaws.com/v1/repos/kilt"
+  },
+  "keywords": [
+    "RESTful",
+    "blockchain",
+    "kilt"
+  ],
+  "author": "dgallati",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "@kiltprotocol/sdk-js": "^0.12.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
